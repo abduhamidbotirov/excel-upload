@@ -1,5 +1,5 @@
-import "../db/localMongo.js";
-// import "../db/globalMongo.js"
+// import "../db/localMongo.js";
+import "../db/globalMongo.js"
 import express, { Application, Request, Response } from "express";
 import cors from "cors";
 import path from "path";
